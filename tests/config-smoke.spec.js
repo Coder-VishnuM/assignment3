@@ -48,7 +48,7 @@ test('testing events page', async ({ page }) => {
     await expect(page.getByText('$').nth(1)).toContainText(eventPriceText);
 });
 
-test.only('practice nth last and first', async ({ page }) => {
+test('practice nth last and first', async ({ page }) => {
 
     await loginpage(page);
     await page.getByRole('link', { name: /browse events/i }).nth(0).click();

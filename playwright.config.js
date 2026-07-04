@@ -20,13 +20,13 @@ export default defineConfig({
                 timeout: 10 * 1000,
             }
         },
-        // {
-        //     name: 'firefox',
-        //     use: {
-        //         browserName: 'firefox',
-        //         headless: true,
-        //     }
-        // }
+        {
+            name: 'firefox',
+            use: {
+                browserName: 'firefox',
+                headless: true,
+            }
+        }
     ]
 });
 
